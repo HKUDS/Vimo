@@ -119,6 +119,6 @@ We embrace the open-source spirit and welcome contributions from the community! 
 We would like to express our gratitude to the following open-source projects that have inspired and contributed to Vimo's development:
 
 - **[nano-graphrag](https://github.com/gusye1234/nano-graphrag)**: For providing innovative algorithms and techniques that enhanced our video understanding capabilities.
-- **[uitars-desktop](https://github.com/phodal/uitars)**: For inspiring our frontend development approach and providing valuable insights into desktop application architecture.
+- **[uitars-desktop](https://github.com/bytedance/UI-TARS-desktop)**: For inspiring our frontend development approach and providing valuable insights into desktop application architecture.
 
 Thank you to these amazing projects and their contributors! 🙏

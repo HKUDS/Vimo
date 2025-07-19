@@ -4,7 +4,8 @@
       <img src="figures/Vimo-logo.png" width="30%" alt="Vimo: Agentic Video Understanding">
   </picture>
   
-<hr>
+  <h1>Vimo: Agentic Video Understanding</h1>
+  
 
   [![Version](https://img.shields.io/badge/version-Beta-blue.svg)](package.json)
   [![Platform](https://img.shields.io/badge/platform-mac-lightgrey.svg)]()

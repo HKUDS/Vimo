@@ -43,6 +43,10 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 
 ### Option 2: Run Vimo from Source Code
 
+> [!NOTE]
+> Ensure the backend service is running before launching the frontend application.
+> This setup has been tested and verified to work seamlessly on macOS with M1 chips.
+
 #### Step 1: Set Up and Start Backend Service
 
 Since Vimo utilizes a Python-based VideoRAG server as its backend, please follow the steps below to create the appropriate Python environment:
@@ -91,7 +95,3 @@ pnpm install
 # Start development server
 pnpm dev
 ```
-
-> [!NOTE]
-> Ensure the backend service is running before launching the frontend application.
-> This setup has been tested and verified to work seamlessly on macOS with M1 chips.

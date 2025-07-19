@@ -1,7 +1,7 @@
 
 <div align="center">
   <picture>
-      <img src="figures/vimo-logo.png" width="30%" alt="Vimo: Agentic Video Understanding">
+      <img src="figures/Vimo-logo.png" width="30%" alt="Vimo: Agentic Video Understanding">
   </picture>
   
 <hr>

@@ -24,6 +24,12 @@ Vimo is a state-of-the-art agentic video understanding platform with intelligent
 
 ### Core Technology
 
-Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a retrieval-augmented generation framework specifically designed for processing and understanding extremely long-context videos.
+Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a retrieval-augmented generation framework specifically designed for processing and understanding extremely long-context videos. For detailed performance comparison, please refer to our [paper](https://arxiv.org/abs/2502.01549).
+
+<div align="center">
+  <picture>
+      <img src="figures/table.png" width="100%" alt="Vimo: Agentic Video Understanding">
+  </picture>
+</div>
 
 ## 2. Demo Video

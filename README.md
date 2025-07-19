@@ -40,6 +40,17 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 
 ### Option 1: Install Vimo App & Run it
 
+> [!NOTE]
+> Currently available for **macOS Apple Silicon** only. Windows and Linux versions are coming soon!
+
+<div align="left">
+  <a href="https://github.com/your-repo/Vimo/releases/latest">
+    <img src="https://img.shields.io/badge/Download%20for-Mac-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple Silicon)" height="60">
+  </a>
+</div>
+
+Simply download the latest `.dmg` file from our releases, install, and launch Vimo from your Applications folder!
+
 
 
 ### Option 2: Run Vimo from Source Code

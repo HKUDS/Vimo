@@ -8,6 +8,7 @@
 
   [![Version](https://img.shields.io/badge/version-Beta-blue.svg)](package.json)
   [![Platform](https://img.shields.io/badge/platform-mac-lightgrey.svg)]()
+  [![arXiv](https://img.shields.io/badge/arXiv-2502.01549-b31b1b.svg)](https://arxiv.org/abs/2502.01549)
   [![Powered by](https://img.shields.io/badge/powered%20by-VideoRAG-orange.svg)](https://github.com/HKUDS/VideoRAG)
 
 </div>
@@ -20,7 +21,7 @@ Vimo is a state-of-the-art agentic video understanding platform with intelligent
 
 * **Agentic Intelligence**: Specifically designed for conversational video analysis, autonomous content understanding, and intelligent user interaction.
 * **Multi-modal Processing**: Advanced fusion of visual, audio, and temporal information for comprehensive video understanding.
-* **Real-time Interaction**: Optimized for responsive user experience with efficient video processing and instant query responses.
+* **Real-time Interaction**: Optimized for responsive user experience with efficient query responses.
 
 ### Core Technology
 
@@ -33,3 +34,64 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 </div>
 
 ## 2. Demo Video
+
+## 3. Quick Start
+
+### Option 1: Install Vimo App & Run it
+
+
+
+### Option 2: Run Vimo from Source Code
+
+#### Step 1: Set Up and Start Backend Service
+
+Since Vimo utilizes a Python-based VideoRAG server as its backend, please follow the steps below to create the appropriate Python environment:
+
+```bash
+conda create --name vimo python=3.11
+conda activate vimo
+
+# Core numerical and deep learning libraries
+pip install numpy==1.26.4 torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
+
+# Video processing utilities
+pip install moviepy==1.0.3
+pip install git+https://github.com/Re-bin/pytorchvideo.git@58f50da4e4b7bf0b17b1211dc6b283ba42e522df
+pip install  --no-deps git+https://github.com/facebookresearch/ImageBind.git@3fcf5c9039de97f6ff5528ee4a9dce903c5979b3
+
+# Multi-modal and vision libraries
+pip install timm ftfy regex einops fvcore eva-decord==0.6.1 iopath matplotlib types-regex cartopy
+
+# Audio processing and vector databases
+pip install neo4j hnswlib xxhash nano-vectordb
+
+# Language models and utilities
+pip install tiktoken openai tenacity dashscope
+
+# Server
+pip install flask psutil flask_cors setproctitle
+```
+
+Once the environment is set up, start the VideoRAG server using the following commands:
+
+``` bash
+# Navigate to backend directory and start API server
+cd python_backend
+python videorag_api.py
+```
+
+#### Step 2: Launch Frontend Application
+
+After successfully starting the backend service, proceed to launch the frontend application by running the following commands in the project root directory:
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+```
+
+> [!NOTE]
+> Ensure the backend service is running before launching the frontend application.
+> This setup has been tested and verified to work seamlessly on macOS with M1 chips.

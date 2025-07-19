@@ -44,7 +44,7 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 > Currently available for **macOS Apple Silicon** only. Windows and Linux versions are coming soon!
 
 <div align="left">
-  <a href="https://github.com/your-repo/Vimo/releases/latest">
+  <a href="">
     <img src="https://img.shields.io/badge/Download%20for-Mac-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple Silicon)" height="60">
   </a>
 </div>

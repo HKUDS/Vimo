@@ -4,7 +4,7 @@
       <img src="figures/Vimo-logo.png" width="30%" alt="Vimo: Agentic Video Understanding">
   </picture>
   
-  <h1>Vimo: Agentic Video Understanding</h1>
+  <h1>Vimo: Chat with Your Videos</h1>
   
 
   [![Version](https://img.shields.io/badge/version-Beta-blue.svg)](package.json)

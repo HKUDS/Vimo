@@ -43,8 +43,6 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 
 > [!NOTE]
 > We are starting with a **Beta version** and will continuously improve our Vimo based on feedback and suggestions from the open-source community. The first packaged release will be available once we complete our preparations.
-
-> [!INFO]
 > Future releases will be available for **macOS Apple Silicon** first, with Windows and Linux versions coming later!
 
 <div align="left">

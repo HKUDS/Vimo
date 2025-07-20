@@ -8,7 +8,8 @@
   
 
   [![Version](https://img.shields.io/badge/version-Beta-blue.svg)](package.json)
-  [![Platform](https://img.shields.io/badge/platform-mac-lightgrey.svg)]()
+  [![Status](https://img.shields.io/badge/status-In%20Development-yellow.svg)]()
+  [![Platform](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-lightgrey.svg)]()
   [![arXiv](https://img.shields.io/badge/arXiv-2502.01549-b31b1b.svg)](https://arxiv.org/abs/2502.01549)
   [![Powered by](https://img.shields.io/badge/powered%20by-VideoRAG-orange.svg)](https://github.com/HKUDS/VideoRAG)
 
@@ -41,15 +42,18 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
 ### Option 1: Install Vimo App & Run it
 
 > [!NOTE]
-> Currently available for **macOS Apple Silicon** only. Windows and Linux versions are coming soon!
+> We are starting with a **Beta version** and will continuously improve our Vimo based on feedback and suggestions from the open-source community. The first packaged release will be available once we complete our preparations.
+
+> [!INFO]
+> Future releases will be available for **macOS Apple Silicon** first, with Windows and Linux versions coming later!
 
 <div align="left">
-  <a href="">
-    <img src="https://img.shields.io/badge/Download%20for-Mac-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple Silicon)" height="60">
+  <a href="https://github.com/HKUDS/Vimo">
+    <img src="https://img.shields.io/badge/Coming%20Soon-Mac-007ACC?style=for-the-badge&logo=apple&logoColor=white" alt="Coming Soon - Mac Release" height="60">
   </a>
 </div>
 
-Simply download the latest `.dmg` file from our releases, install, and launch Vimo from your Applications folder!
+The packaged version will be available soon! In the meantime, please use Option 2 to run Vimo from source code.
 
 
 

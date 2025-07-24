@@ -567,7 +567,6 @@ class VideoRAGProcessManager:
         self.running_processes.clear()
         log_to_file("🧹 Process manager cleanup completed")
 
-# Global instance - delayed initialization
 global_imagebind_manager = None
 process_manager = None
 

@@ -2,8 +2,6 @@ import { app, BrowserWindow } from 'electron';
 import { electronApp, optimizer } from '@electron-toolkit/utils';
 import { join } from 'node:path';
 import { ipcMain } from 'electron';
-
-// Import modular handlers
 import { createMainWindow } from './handlers/window'
 import { setupVideoRAGHandlers, stopVideoRAGService } from './handlers/videorag-handlers';
 import { registerFileHandlers } from './handlers/file-handlers';

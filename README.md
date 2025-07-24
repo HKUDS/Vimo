@@ -35,7 +35,13 @@ Vimo is powered by [VideoRAG](https://github.com/HKUDS/VideoRAG), which is a ret
   </picture>
 </div>
 
-## 2. Demo Video
+## 2. Introduction Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=T9yo4mY2cms">
+    <img src="https://img.youtube.com/vi/T9yo4mY2cms/maxresdefault.jpg" width="80%" alt="Vimo Introduction Video">
+  </a>
+</div>
 
 ## 3. Quick Start
 

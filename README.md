@@ -12,6 +12,7 @@
   [![Platform](https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-lightgrey.svg)]()
   [![arXiv](https://img.shields.io/badge/arXiv-2502.01549-b31b1b.svg)](https://arxiv.org/abs/2502.01549)
   [![Powered by](https://img.shields.io/badge/powered%20by-VideoRAG-orange.svg)](https://github.com/HKUDS/VideoRAG)
+  [![Visitors](https://komarev.com/ghpvc/?username=HKUDS&repo=Vimo&style=flat-square&label=Visitors&color=blue)](https://github.com/HKUDS/Vimo)
 
 </div>
 

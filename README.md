@@ -105,6 +105,8 @@ cd python_backend
 python videorag_api.py
 ```
 
+⚠️ **File Location Notice (Current Version)**: Once a video is imported into Vimo, avoid moving or renaming the video file on your computer. In the current beta version, changing the file path may disrupt Vimo's ability to access the video. This limitation will be addressed in future releases.
+
 #### Step 2: Launch Frontend Application
 
 After successfully starting the backend service, proceed to launch the frontend application by running the following commands in the project root directory:
